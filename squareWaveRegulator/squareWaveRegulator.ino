@@ -1,8 +1,8 @@
-int led = 13;
+int led = 13; // digital pin
 
 void setup() {
     pinMode(led, OUTPUT);
-    pinMode(A0, INPUT);
+    pinMode(A0, INPUT); // potentiometer
 }
 
 void loop() {
